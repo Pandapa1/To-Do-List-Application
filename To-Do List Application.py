@@ -53,7 +53,7 @@ class ToDoList:
             pass
 
 
-# Usage Example
+# start the app
 todo = ToDoList()
 todo.load_from_file()
 todo.add_task(Task("Submit project", "Work", 1, "2024-12-25"))
